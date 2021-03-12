@@ -1,0 +1,32 @@
+.parent{
+    width: 100%;
+    height: 500px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+     position: relative; 
+    
+    
+}
+img{
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.parent>div{
+    padding-top: 10px;
+    margin: 5px;
+    padding-left: 10px;
+}
+h3{
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 92%;
+    
+    
+    
+}
